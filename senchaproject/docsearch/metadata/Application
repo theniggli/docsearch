@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "stores": [
-            "MyJsonStore"
+            "QueryStore"
         ],
         "views": [
             "MyTabPanel"

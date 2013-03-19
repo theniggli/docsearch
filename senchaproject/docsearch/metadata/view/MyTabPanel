@@ -24,7 +24,37 @@
                 "iconCls": "search",
                 "designer|userClassName": "MyContainer"
             },
-            "designerId": "5e97b2f7-68d6-4778-a81f-89169a084042"
+            "designerId": "5e97b2f7-68d6-4778-a81f-89169a084042",
+            "cn": [
+                {
+                    "type": "searchfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySearchField",
+                        "label": "Field"
+                    },
+                    "designerId": "88367e9f-d2d1-45b6-91e1-3d59c9313c99"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton",
+                        "centered": true,
+                        "maxWidth": 200,
+                        "text": "search"
+                    },
+                    "designerId": "c9d70a48-0b18-457e-8c8a-92d7995f5337"
+                }
+            ]
         },
         {
             "type": "container",
@@ -36,9 +66,43 @@
             "userConfig": {
                 "title": "Query",
                 "iconCls": "organize",
-                "designer|userClassName": "MyContainer1"
+                "designer|userClassName": "MyContainer1",
+                "layout": "card"
             },
-            "designerId": "fc3cd6e6-dcc8-4e2b-8681-30cbc41c0dec"
+            "designerId": "fc3cd6e6-dcc8-4e2b-8681-30cbc41c0dec",
+            "cn": [
+                {
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyList",
+                        "store": null
+                    },
+                    "designerId": "bfdb2c2c-2b05-4e5f-a054-8ac4082364b4",
+                    "cn": [
+                        {
+                            "type": "template",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "itemTpl",
+                                "implHandler": [
+                                    "<div>{Id}</div>"
+                                ],
+                                "designer|displayName": "itemTpl"
+                            },
+                            "designerId": "d4d10a02-7c7d-4d9b-90f5-5845cefec8b9"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "container",
@@ -49,10 +113,24 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Results",
-                "iconCls": "info",
+                "iconCls": "compose",
                 "designer|userClassName": "MyContainer2"
             },
             "designerId": "cbc56816-828e-422d-8689-8927cc237b31"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Statistics",
+                "iconCls": "info",
+                "designer|userClassName": "MyContainer2"
+            },
+            "designerId": "5e8c2f4e-e4ef-4765-a2f5-3246ca8fe52a"
         },
         {
             "type": "tabbar",

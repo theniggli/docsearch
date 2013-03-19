@@ -20,17 +20,45 @@ Ext.define('MyApp.view.MyTabPanel', {
         items: [
             {
                 xtype: 'container',
-                title: 'Tab 1',
-                iconCls: 'info'
+                title: 'Search',
+                iconCls: 'search',
+                items: [
+                    {
+                        xtype: 'searchfield',
+                        label: 'Field'
+                    },
+                    {
+                        xtype: 'button',
+                        centered: true,
+                        maxWidth: 200,
+                        text: 'search'
+                    }
+                ]
             },
             {
                 xtype: 'container',
-                title: 'Tab 2',
-                iconCls: 'info'
+                title: 'Query',
+                iconCls: 'organize',
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        itemTpl: [
+                            '<div>{Id}</div>'
+                        ]
+                    }
+                ]
             },
             {
                 xtype: 'container',
-                title: 'Tab 3',
+                title: 'Results',
+                iconCls: 'compose'
+            },
+            {
+                xtype: 'container',
+                title: 'Statistics',
                 iconCls: 'info'
             }
         ],

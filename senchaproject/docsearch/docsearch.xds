@@ -31,11 +31,19 @@
         },
         "8c9578b8-5f81-41da-afd3-519a005fc84e": {
             "paths": [
-                "metadata/store/MyJsonStore",
-                "app/store/override/MyJsonStore.js",
-                "app/store/MyJsonStore.js"
+                "metadata/store/QueryStore",
+                "app/store/override/QueryStore.js",
+                "app/store/QueryStore.js"
             ],
-            "className": "MyJsonStore"
+            "className": "QueryStore"
+        },
+        "35fcbf47-ab69-42e6-855b-4aabee0416e6": {
+            "paths": [
+                "metadata/model/QueryModel",
+                "app/model/override/QueryModel.js",
+                "app/model/QueryModel.js"
+            ],
+            "className": "QueryModel"
         }
     },
     "viewOrderMap": {
@@ -46,7 +54,9 @@
             "8c9578b8-5f81-41da-afd3-519a005fc84e"
         ],
         "controller": [],
-        "model": [],
+        "model": [
+            "35fcbf47-ab69-42e6-855b-4aabee0416e6"
+        ],
         "resource": [
             "b0c3278b-725c-42c5-a056-048a98a5ef1e"
         ],

@@ -19,7 +19,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
     stores: [
-        'MyJsonStore'
+        'QueryStore'
     ],
     views: [
         'MyTabPanel'
