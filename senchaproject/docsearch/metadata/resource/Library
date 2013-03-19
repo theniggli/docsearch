@@ -1,0 +1,10 @@
+{
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "id": "ExtBox1-ext-gen2903",
+    "designerId": "b0c3278b-725c-42c5-a056-048a98a5ef1e"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "stores": [
+            "MyJsonStore"
+        ],
+        "views": [
+            "MyTabPanel"
+        ],
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen2895",
+    "designerId": "application"
+}

@@ -1,0 +1,71 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyTabPanel",
+        "designer|initialView": true
+    },
+    "id": "ExtBox1-ext-gen3435",
+    "designerId": "734d843c-7343-4162-bb98-54a91c3c3faf",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Search",
+                "iconCls": "search",
+                "designer|userClassName": "MyContainer"
+            },
+            "designerId": "5e97b2f7-68d6-4778-a81f-89169a084042"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Query",
+                "iconCls": "organize",
+                "designer|userClassName": "MyContainer1"
+            },
+            "designerId": "fc3cd6e6-dcc8-4e2b-8681-30cbc41c0dec"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Results",
+                "iconCls": "info",
+                "designer|userClassName": "MyContainer2"
+            },
+            "designerId": "cbc56816-828e-422d-8689-8927cc237b31"
+        },
+        {
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabBar",
+                "docked": "bottom"
+            },
+            "designerId": "f5e49237-b18d-4235-a31b-40e8b8dd5d89"
+        }
+    ]
+}

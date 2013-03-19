@@ -1,0 +1,57 @@
+{
+    "name": "docsearch",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "C:/Users/sandro/Documents/GitHub/docsearch/frontend",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "b0c3278b-725c-42c5-a056-048a98a5ef1e": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "734d843c-7343-4162-bb98-54a91c3c3faf": {
+            "paths": [
+                "metadata/view/MyTabPanel",
+                "app/view/override/MyTabPanel.js",
+                "app/view/MyTabPanel.js"
+            ],
+            "className": "MyTabPanel"
+        },
+        "8c9578b8-5f81-41da-afd3-519a005fc84e": {
+            "paths": [
+                "metadata/store/MyJsonStore",
+                "app/store/override/MyJsonStore.js",
+                "app/store/MyJsonStore.js"
+            ],
+            "className": "MyJsonStore"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "734d843c-7343-4162-bb98-54a91c3c3faf"
+        ],
+        "store": [
+            "8c9578b8-5f81-41da-afd3-519a005fc84e"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "b0c3278b-725c-42c5-a056-048a98a5ef1e"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
