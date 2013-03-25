@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-my @arr=readfile('/home/john/docsearch/data/documents/1');
+my @arr=readfile('/Users/merne/dev/perl/docsearch/data/documents/1');
 print "-->\n@arr\n<--\n";
 
 sub readfile() {
