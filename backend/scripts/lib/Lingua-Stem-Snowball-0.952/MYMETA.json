@@ -1,0 +1,43 @@
+{
+   "abstract" : "Perl interface to Snowball stemmers.",
+   "author" : [
+      "Marvin Humphrey <marvin at rectangular dot com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Lingua-Stem-Snowball",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : 0,
+            "ExtUtils::ParseXS" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Test::More" : 0,
+            "perl" : "v5.6.2"
+         }
+      }
+   },
+   "provides" : {
+      "Lingua::Stem::Snowball" : {
+         "file" : "lib/Lingua/Stem/Snowball.pm",
+         "version" : "0.952"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.952"
+}
